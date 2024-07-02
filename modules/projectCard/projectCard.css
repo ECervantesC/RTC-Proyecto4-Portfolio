@@ -1,0 +1,9 @@
+.projectCardDiv {
+  background-color: var(--background-terciary-color);
+  width: 374px;
+  border: solid 1px black;
+}
+.projectCardDiv > img {
+  width: 374px;
+  height: 255px;
+}
