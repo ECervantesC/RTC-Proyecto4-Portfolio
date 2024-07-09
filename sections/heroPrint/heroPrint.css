@@ -1,0 +1,37 @@
+#heroSection {
+  background-color: var(--background-secondary-color);
+  width: 100%;
+  border: 2px solid black;
+  padding: 138px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 200px;
+}
+#heroTextDiv {
+  width: 487px;
+}
+#heroTextDiv > p {
+  color: var(--font-secondary-color);
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-xl);
+  line-height: var(--font-line-heigth-m);
+}
+#heroTextDiv > h1 {
+  color: var(--font-terciary-color);
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-xl);
+  line-height: var(--font-line-heigth-xxl);
+  margin: 40px 0px;
+}
+#heroTextDiv > h2 {
+  color: var(--font-secondary-color);
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-xl);
+  line-height: var(--font-line-heigth-l);
+}
+#heroSection > img {
+  width: 450px;
+  height: 450px;
+  border-radius: var(--border-radius-photo);
+}

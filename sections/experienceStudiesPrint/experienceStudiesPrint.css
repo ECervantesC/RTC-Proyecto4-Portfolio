@@ -1,0 +1,39 @@
+#experienceStudiesSection {
+  background-color: var(--background-secondary-color);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap-l);
+  padding: 40px;
+}
+#titlesDiv {
+  color: var(--font-terciary-color);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-xl);
+  line-height: var(--font-line-heigth-xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap-xxl);
+}
+.selected {
+  color: var(--font-secondary-color);
+  text-decoration-line: underline;
+  text-underline-offset: 10px;
+}
+
+#contentDiv {
+  width: 80%;
+  color: var(--font-secondary-color);
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-s);
+  line-height: var(--font-line-heigth-m);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap-xl);
+  text-align: justify;
+}

@@ -1,0 +1,17 @@
+#aboutMeSection {
+  width: 75%;
+  margin: 80px;
+}
+#aboutMeSection > h2 {
+  color: var(--font-primary-color);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-xl);
+  line-height: var(--font-line-heigth-xl);
+}
+#aboutMeSection > p {
+  color: var(--font-primary-color);
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-xl);
+  line-height: var(--font-line-heigth-l);
+  padding: 40px 0px;
+}

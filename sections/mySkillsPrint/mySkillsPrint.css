@@ -1,0 +1,17 @@
+#mySkillsSection {
+  /* height: 20svh; */
+  width: 100%;
+}
+#mySkillsSection > h2 {
+  color: var(--font-primary-color);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-xl);
+  line-height: var(--font-line-heigth-xl);
+  text-align: center;
+}
+#mySkillsDiv {
+  height: 15svh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

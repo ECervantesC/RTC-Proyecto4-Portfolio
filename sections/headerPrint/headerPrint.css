@@ -1,0 +1,39 @@
+header {
+  background-color: var(--backgroung-header-footer-color);
+  height: 10svh;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: var(--padding-xl) 0px;
+  position: fixed;
+}
+#nameDiv {
+  color: var(--font-secondary-color);
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-xl);
+  line-height: var(--font-line-heigth-xl);
+}
+#contactAnchor {
+  color: var(--font-secondary-color);
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-xl);
+  line-height: var(--font-line-heigth-xl);
+  cursor: pointer;
+}
+header > nav > ul {
+  width: 50svw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: var(--gap-m);
+}
+header > nav > ul > li > a {
+  color: var(--font-secondary-color);
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-xl);
+  line-height: var(--font-line-heigth-xl);
+  cursor: pointer;
+}

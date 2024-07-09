@@ -1,0 +1,6 @@
+#contactSection {
+  background-color: var(--background-terciary-color);
+  height: 20svh;
+  width: 100%;
+  border: 2px solid black;
+}
