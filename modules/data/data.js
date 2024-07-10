@@ -75,5 +75,17 @@ export const data = {
       github: '#',
       image: './assets/Proyecto 2 - Web.png'
     }
+  ],
+  socialNetworks: [
+    {
+      link: 'https://github.com/ECervantesC',
+      image: './public/assets/github_color.png',
+      description: 'GitHub'
+    },
+    {
+      link: 'https://www.linkedin.com/in/elisa-cervantes/',
+      image: './public/assets/linkedin_color.png',
+      description: 'LinkedIn'
+    }
   ]
 }

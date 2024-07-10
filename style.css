@@ -4,8 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: Inter, sans-serif;
-  font-weight: 400; */
+  font-family: Inter, sans-serif;
+  font-weight: 400;
 }
 ul {
   list-style: none;
@@ -22,6 +22,7 @@ a {
   --font-primary-color: #4b1a72;
   --font-secondary-color: #ffffff;
   --font-terciary-color: #e371ff;
+  --font-quaternary-color: #997ab1;
   --font-size-xxl: 96px;
   --font-size-xl: 64px;
   --font-size-l: 48px;
@@ -65,6 +66,10 @@ a {
   --gap-m: 20px;
   --gap-s: 10px;
   --gap-xs: 5px;
+  --form-border-color: #4b1a72;
+  --form-background-color: #ffffff;
+  --button-background-color: #4b1a72;
+  --button-font-color: #ffffff;
 }
 body {
   background-color: var(--background-primary-color);
