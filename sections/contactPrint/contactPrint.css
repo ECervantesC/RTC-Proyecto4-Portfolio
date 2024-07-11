@@ -2,21 +2,43 @@
   background-color: var(--background-terciary-color);
   width: 100%;
   border: 2px solid black;
+  padding: var(--padding-xl) var(--padding-xxl);
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: var(--gap-l);
+}
+.introDiv {
+  width: 30%;
+  /* height: 250px; */
+}
+.introDiv h2 {
+  width: 65%;
+  color: var(--font-primary-color);
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-l);
+  line-height: var(--font-line-heigth-m);
+  padding-bottom: var(--padding-xxl);
+}
+.introDiv p {
+  color: var(--font-primary-color);
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-l);
+  line-height: var(--font-line-heigth-s);
+  padding-bottom: var(--padding-l);
+}
+.interesetingsDiv {
+  width: 100%;
+  /* height: 200px; */
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   gap: var(--gap-m);
 }
-.introDiv {
-  width: 40%;
-  height: 500px;
-  background-color: red;
-}
-/* .formDiv {
-} */
 .contactForm {
-  width: 40%;
-  height: 250px;
+  width: 50%;
+  /* height: 250px; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -54,6 +76,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: var(--gap-s);
+}
+.contactForm > button > img {
+  width: 25px;
+  heigth: 25px;
 }
 .linksDiv {
   display: flex;
