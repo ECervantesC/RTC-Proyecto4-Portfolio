@@ -24,11 +24,16 @@ export const headerPrint = () => {
   }
   const contactAnchor = document.createElement('a')
   contactAnchor.id = 'contactAnchor'
-  contactAnchor.textContent = 'Contacto'
+  contactAnchor.textContent = 'Contact'
   contactAnchor.href = '#contactSection'
+  const hamburguerMenu = document.createElement('img')
+  hamburguerMenu.src = './public/assets/enlaces.png'
+  hamburguerMenu.alt = 'Menu'
+  hamburguerMenu.id = 'hamburguerMenu'
   navBar.append(navUl)
   header.append(nameDiv)
   header.append(navBar)
   header.append(contactAnchor)
+  header.append(hamburguerMenu)
   document.body.append(header)
 }

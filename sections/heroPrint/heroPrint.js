@@ -11,8 +11,6 @@ export const heroPrint = () => {
   heroTextH1.textContent = "I'm a web developer"
   const heroTextH2 = document.createElement('h2')
   heroTextH2.textContent = 'I build thing for web'
-  // heroTextH2.textContent =
-  //   'I build your web to help you to achive your objectives'
   const heroImage = document.createElement('img')
   heroImage.src = './assets/foto_profesional.jpg'
   heroImage.alt = 'Elisa Cervantes'

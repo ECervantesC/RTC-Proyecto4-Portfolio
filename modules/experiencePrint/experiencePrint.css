@@ -6,5 +6,26 @@
   gap: var(--gap-s);
 }
 .itemDiv > h3 {
+  color: var(-font-secondary-color);
+  font-size: var(--font-size-m);
   font-weight: var(--font-weight-m);
+  line-height: var(--font-line-heigth-m);
+  padding-bottom: var(--padding-l);
+}
+.itemDiv > p {
+  color: var(-font-secondary-color);
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-xs);
+  line-height: var(--font-line-heigth-m);
+}
+
+@media screen and (max-width: 600px) {
+  .itemDiv > h3 {
+    font-size: var(--font-size-s);
+    line-height: var(--font-line-heigth-s);
+  }
+  .itemDiv > p {
+    font-size: var(--font-size-s);
+    line-height: var(--font-line-heigth-s);
+  }
 }

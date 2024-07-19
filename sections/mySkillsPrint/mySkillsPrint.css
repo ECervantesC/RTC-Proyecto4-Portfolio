@@ -1,5 +1,4 @@
 #mySkillsSection {
-  /* height: 20svh; */
   width: 100%;
 }
 #mySkillsSection > h2 {
@@ -10,8 +9,10 @@
   text-align: center;
 }
 #mySkillsDiv {
-  height: 15svh;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+  gap: var(--gap-l);
+  padding: var(--padding-m);
 }

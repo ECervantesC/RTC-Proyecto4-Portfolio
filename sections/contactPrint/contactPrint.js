@@ -55,13 +55,16 @@ export const contactPrint = () => {
   })
   contactForm.addEventListener('submit', (e) => {
     console.log('he hecho click en submit')
-    event.preventDefault()
+    e.preventDefault()
     var contactName = nameInput.value
     var contactEmail = emailInput.value
     var contactMessage = messageInput.value
     console.log(contactName)
     console.log(contactEmail)
     console.log(contactMessage)
+    alert(
+      'Gracias por tu mensaje. Nos pondremos en contacto contigo a la mayor brevedad posible'
+    )
   })
   const linksDiv = document.createElement('div')
   linksDiv.className = 'linksDiv'
@@ -78,9 +81,7 @@ export const contactPrint = () => {
   contactForm.append(messageInput)
   contactForm.append(sendButton)
   contactForm.append(linksDiv)
-  // formDiv.append(contactForm)
   contactSection.append(introDiv)
   contactSection.append(contactForm)
-  // contactSection.append(formDiv)
   document.body.append(contactSection)
 }

@@ -16,7 +16,6 @@ export const experienceStudiesPrint = () => {
   const contentDiv = document.createElement('div')
   contentDiv.id = 'contentDiv'
   experiencePrint(contentDiv, data.workExperience)
-  // studiesPrint(contentDiv, data.education)
   experienceDiv.addEventListener('click', (e) => {
     console.log('he hecho clic en experience')
     if (studiesDiv.classList.contains('selected')) {

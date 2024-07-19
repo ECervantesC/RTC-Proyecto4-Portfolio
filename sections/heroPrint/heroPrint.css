@@ -1,15 +1,11 @@
 #heroSection {
   background-color: var(--background-secondary-color);
   width: 100%;
-  border: 2px solid black;
   padding: 138px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-top: 200px;
-}
-#heroTextDiv {
-  width: 487px;
 }
 #heroTextDiv > p {
   color: var(--font-secondary-color);
@@ -34,4 +30,60 @@
   width: 450px;
   height: 450px;
   border-radius: var(--border-radius-photo);
+}
+
+@media screen and (max-width: 600px) {
+  #heroSection {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: var(--gap-xl);
+    padding: 0px;
+    width: 100svw;
+  }
+  #heroTextDiv > h1 {
+    font-size: var(--font-size-l);
+    text-align: center;
+  }
+  #heroTextDiv > h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  #heroTextDiv > p {
+    font-size: var(--font-size-xl);
+    text-align: center;
+  }
+  #heroSection > img {
+    width: 276px;
+    height: 276px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+  #heroSection {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: var(--gap-xl);
+  }
+  #heroTextDiv > h1 {
+    font-size: var(--font-size-xl);
+    text-align: center;
+  }
+  #heroTextDiv > p {
+    text-align: center;
+  }
+  #heroTextDiv > h2 {
+    text-align: center;
+  }
+  #heroSection > img {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1440px) {
+  #heroTextDiv > h1 {
+    font-size: var(--font-size-xl);
+  }
+  #heroSection > img {
+    width: 350px;
+    height: 350px;
+  }
 }

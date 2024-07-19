@@ -1,6 +1,5 @@
 .projectCardDiv {
   background-color: var(--background-terciary-color);
-  min-width: 400px;
   max-width: 600px;
   border-radius: var(--border-radius-l);
   display: flex;
@@ -24,7 +23,6 @@
 }
 .projectCardDiv > p {
   width: 95%;
-  height: 70px;
   color: var(--font-primary-color);
   font-size: (--font-size-xxs);
   font-weight: var(--font-weight-xs);
@@ -41,4 +39,10 @@
   line-height: var(--font-line-heigth-xs);
   text-align: center;
   border-radius: var(--border-radius-s);
+}
+
+@media screen and (max-width: 600px) {
+  .projectCardDiv {
+    width: 80%;
+  }
 }

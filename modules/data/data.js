@@ -9,14 +9,25 @@ export const data = {
 
   education: [
     {
-      degree: 'Ingeniería de Telecomuniciones',
+      degree: 'Ingeniería de Telecomunicaciones',
       university: 'Universidad Politécnica de Valencia',
       graduationYear: 1996,
       relevantCourses: [
+        'Communication Theory',
+        'Digital Electronic',
+        'Radionavigation',
+        'Signal and systems'
+      ]
+    },
+    {
+      degree: 'Rock {The Code}',
+      university: 'Power Tech School',
+      graduationYear: 2024,
+      relevantCourses: [
         'Web Development Fundamentals',
-        'Data Structures and Algorithms',
-        'Database Design',
-        'User Interface Design'
+        'HTML, CSS, Javascripts',
+        'Database',
+        'Backend'
       ]
     }
   ],

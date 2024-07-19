@@ -2,12 +2,14 @@ header {
   background-color: var(--backgroung-header-footer-color);
   height: 10svh;
   width: 100%;
-  border: 2px solid black;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: var(--padding-xl) 0px;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+  padding-top: 0px;
+  padding-bottom: 0px;
   position: fixed;
 }
 #nameDiv {
@@ -36,4 +38,44 @@ header > nav > ul > li > a {
   font-weight: var(--font-weight-xl);
   line-height: var(--font-line-heigth-xl);
   cursor: pointer;
+}
+#hamburguerMenu {
+  width: 75px;
+  height: 75px;
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  #nameDiv {
+    font-weight: var(--font-weight-xs);
+    line-height: var(--font-line-heigth-m);
+  }
+  header > nav > ul {
+    display: none;
+  }
+  #contactAnchor {
+    display: none;
+  }
+  #hamburguerMenu {
+    width: 30px;
+    height: 30px;
+    display: block;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1440px) {
+  #nameDiv {
+    font-weight: var(--font-weight-m);
+    line-height: var(--font-line-heigth-l);
+  }
+  header > nav > ul {
+    display: none;
+  }
+  #contactAnchor {
+    display: none;
+  }
+  #hamburguerMenu {
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
 }
